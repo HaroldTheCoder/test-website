@@ -119,13 +119,21 @@ p {
 #section-1 .section-1-header {
   width: 60%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 #section-1 .section-1-header .heading-container {
   list-style-type: none;
+}
+#section-1 .section-1-header .header-content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
   position: relative;
 }
-
 #section-1 .section-1-header .heading-container li::before {
   content: '01.';
   font-size: 10em;
@@ -136,8 +144,8 @@ p {
 
 #section-1 .section-1-header .heading-container h2 {
   position: absolute;
-  top: 51%;
-  left: 14%;
+  top: 40%;
+  left: 16.5%;
   text-transform: uppercase;
   color: #2c3649;
 }
@@ -266,14 +274,14 @@ p {
 
 #section-2 .section-2-header .header-content .heading-container h2 {
   position: absolute;
-  top: 51%;
-  right: -18%;
+  top: 52%;
+  right: -20%;
   text-transform: uppercase;
   color: #2c3649a8;
 }
 
 #section-2 .section-2-header .header-content .description {
-  width: 50%;
+  width: 100%;
   margin: 0 10%;
   line-height: 25px;
 }
@@ -521,7 +529,9 @@ p {
 #section-2 #mountain-slider #slides .slide .slide-content {
   position: absolute;
   top: 20%;
-  left: 7%;
+  left: 0%;
+  width: 90%;
+  height: 50%;
 }
 #main-footer {
   padding: 3em 2em 1em;
