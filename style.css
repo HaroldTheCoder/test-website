@@ -490,7 +490,7 @@ p {
 }
 
 #section-1 .section-1-header .heading-container h2 {
-  top: 51%;
+  top: 25%;
   left: 64%;
 }
 
@@ -509,6 +509,9 @@ p {
   #section-2 .section-2-header .header-content {
   flex-direction: column;
   width: 100%;
+}
+#section-2 .section-2-header .header-content .description {
+  width: 60%;
 }
   #section-2 .section-2-nav {
   background-color: #404f6c;
@@ -529,7 +532,7 @@ p {
 #section-2 #mountain-slider #slides .slide .slide-content {
   position: absolute;
   top: 20%;
-  left: 0%;
+  left: 5%;
   width: 90%;
   height: 50%;
 }
