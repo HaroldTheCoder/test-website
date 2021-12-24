@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Angeles Mountains</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Header-->
+    <header id="main-header">
+        <nav class="top-nav">
+            <div class="logo-container">
+                <figure>
+                <img src="images/logo.jpeg" alt="">
+                </figure>
+                <div class="name-wrap">
+                    <p>Los Angeles</p>
+                    <p>Mountains</p>
+                </div>
+            </div>
+
+            <ol class="navlink-container">
+                <li><a href="#section-1" class="nav-link">01. History</a></li>
+                <li><a href="#section-2" class="nav-link">02. Team</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <!--Main Content-->
+    <div id="section-1">
+        <header class="section-1-header">
+            <ol class="heading-container">
+                <li></li>
+                <h2 class="heading">History</h2>
+            </ol>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </header>
+        
+        <div class="section-1-bottom">
+            <!--Carousel Start-->
+            <div id="slider">
+                <input type="radio" name="slider" id="slide1" class="slide-input" checked>
+                <input type="radio" name="slider" id="slide2" class="slide-input">
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="inner">
+
+                            <div class="slide slide-1">
+                                <div class="slide-content">
+                                    <img src="images/thumbnail-group-1.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="slide slide-2">
+                                <div class="slide-content">
+                                    <img src="images/thumbnail-group-2.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="slide slide-3">
+                                <div class="slide-content">
+                                    <img src="images/thumbnail-group-1.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="slide slide-4">
+                                <div class="slide-content">
+                                    <img src="images/thumbnail-group-2.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Carousel Controls-->
+                <div id="bullets">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                </div>
+            </div>
+        </div>
+        <!--Carousel End-->
+    </div>
+
+    <div id="section-2">
+        <header class="section-2-header">
+            <div class="header-content">
+                <ol class="heading-container">
+                    <li></li>
+                    <h2 class="heading">Climb</h2>
+                </ol>
+                <p class="description">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+            </div>
+        </header>
+
+        <!--Carousel Controls-->
+        <div class="section-2-nav">
+            <div class="nav-container">
+                <label for="mountain1" id="label-mountain1">Mountain 1</label>
+                <label for="mountain2" id="label-mountain2">Mountain 2</label>
+            </div>
+        </div>
+
+        <!--Carousel Start-->
+        <div id="mountain-slider">
+            <input type="radio" name="mountain-slider" id="mountain1" class="slide-input">
+            <input type="radio" name="mountain-slider" id="mountain2" class="slide-input">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide-1">
+                            <div class="slide-content">
+                                <h3>Schedule</h3>
+                                <ul>
+                                    <li><span>25 Nov 2016</span> <span>Vestibulum viverra</span></li>
+                                    <li><span>28 Nov 2016</span> <span>Vestibulum viverra</span></li>
+                                    <br>
+                                    <li><span>18 Dec 2016</span> <span>Vestibulum viverra</span></li>
+                                    <br>
+                                    <li><span>7 jan 2017</span> <span>Vestibulum viverra</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-2">
+                            <div class="slide-content">
+                                <h3>Schedule</h3>
+                                <ul>
+                                    <li><span>25 Nov 2016</span> <span>Vestibulum viverra</span></li>
+                                    <li><span>28 Nov 2016</span> <span>Vestibulum viverra</span></li>
+                                    <br>
+                                    <li><span>18 Dec 2016</span> <span>Vestibulum viverra</span></li>
+                                    <br>
+                                    <li><span>7 jan 2017</span> <span>Vestibulum viverra</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Carousel End-->
+    </div>
+
+    <!--Footer-->
+    <footer id="main-footer">
+        <div class="footer-content">
+            <div class="logo-container">
+                <figure>
+                <img src="images/logo.jpeg" alt="">
+                </figure>
+                <div class="name-wrap">
+                    <p>Los Angeles</p>
+                    <p>Mountains</p>
+                </div>
+            </div>
+            <p class="copyright">Copyright 2016. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
