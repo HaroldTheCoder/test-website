@@ -598,7 +598,7 @@ p {
 }
 
 /* Small - Medium Mobile devices */
-@media screen and (min-width: 321px) and (max-width: 500px) {
+@media screen and (min-width: 321px) and (max-width: 550px) {
 	#main-header {
 		height: 450px;
 		background: url(images/hero-mobile.jpeg) no-repeat center center;
@@ -709,7 +709,7 @@ p {
 }
 
 /* Medium - Landscape devices */
-@media screen and (min-width: 501px) and (max-width: 800px) {
+@media screen and (min-width: 551px) and (max-width: 800px) {
 	#main-header {
 		height: 450px;
 		background: url(images/hero-mobile.jpeg) no-repeat center center;
@@ -855,7 +855,7 @@ p {
 		padding: 1em;
 		border-radius: 0.3em;
 	}
-	
+
 	#section-2 #mountain-slider #slides .slide {
 		width: 100vw;
 		padding: 7em 0 0 40em;
