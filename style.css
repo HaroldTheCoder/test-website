@@ -464,6 +464,13 @@ p {
 #main-header .top-nav .navlink-container li .nav-link {
   font-size: 0.8em;
 }
+#main-header .top-nav.nav-active {
+  width: 100%;
+  padding: 1em 0;
+}
+#main-header .top-nav.nav-active .name-wrap p {
+  font-size: 0.9em;
+}
   #section-1 {
   gap: 5em;
   background: linear-gradient(rgba(255, 255, 255, 0.432), rgba(255, 255, 255, 0.199)), url(images/background-1.jpeg) no-repeat top center;
